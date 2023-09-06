@@ -1,6 +1,6 @@
 {
   "name": "@user-bob/react-input-position",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A React component that decorates it's children with mouse/touch position tracking, a status toggle fired by click/gesture events, and more.",
   "keywords": [
     "touch",
@@ -36,8 +36,8 @@
     "publish-demo": "npm run build"
   },
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.3.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
