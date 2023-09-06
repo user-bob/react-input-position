@@ -1,5 +1,5 @@
 {
-  "name": "react-input-position",
+  "name": "@user-bob/react-input-position",
   "version": "1.3.2",
   "description": "A React component that decorates it's children with mouse/touch position tracking, a status toggle fired by click/gesture events, and more.",
   "keywords": [
@@ -18,12 +18,12 @@
     "listener"
   ],
   "license": "MIT",
-  "author": "Adam Risberg <myniztan@hotmail.com>",
+  "author": "bobie Brighton <bobiebrighton@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamrisberg/react-input-position.git"
+    "url": "https://github.com/user-bob/react-input-position.git"
   },
-  "homepage": "https://adamrisberg.github.io/react-input-position",
+  "homepage": "https://github.com/user-bob/react-input-position#readme",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -33,8 +33,7 @@
     "transpile": "rimraf dist && babel src -d dist --ignore src/__tests__/*",
     "prepublishOnly": "npm run transpile",
     "build": "rimraf examples/dist && webpack --mode production",
-    "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && npm run deploy"
+    "publish-demo": "npm run build"
   },
   "peerDependencies": {
     "react": "^16.3.0",
